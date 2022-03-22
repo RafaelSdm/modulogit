@@ -1,0 +1,41 @@
+comandos com git
+
+git init = iniciar git
+
+git add -A = adicionar novos arquivos ao git
+
+git status = status do git
+
+git commit -m = escrever o commit
+
+git log = a qual commit o projeto esta no momento
+
+git reset --soft = volta uma versao do git
+
+git branch = em qual branch voce esta
+
+git branch teste = criar um  novo branch com nome teste
+
+git checkout teste = vai para o branch teste
+
+git diff = mostra o que foi modificado no arquivo
+
+git diff --name-only = mostra apenas o nome do arquivo modificado
+
+git diff <nome_arquivo> = mostra apenas o que foi modificado nesse arquivo especifico 
+
+git push origin main = adicionando ao repositorio remoto
+
+git revert --no-edit <codcommit> = volta ao commit anterior sem apagar
+
+git push origin <nomebranch> = adicionar branch ao repositorio remoto
+
+git push origin :<nomebranch> = deletat branch do repositorio remoto 
+
+git branch -D <nomebranch> = deleta o branch do repositorio local
+
+git pull origin <nomebranch> = adiciona novos arquivos criando ao repositorio local
+
+git clone <urlrepositorio> = clona um repositorio publico no computador local
+
+
